@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TopDownCharacterController : MonoBehaviour
 {
-    public float speed = 5f;
+    [SerializeField] private float speed = 5f;
+
     // Start is called before the first frame update
     void Start()
     {
