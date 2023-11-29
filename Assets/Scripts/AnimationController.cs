@@ -19,7 +19,7 @@ public class AnimationController : MonoBehaviour
         controller.OnMoveEvent += AnimState;
     }
 
-    private void AnimState(Vector2 dir)
+    void AnimState(Vector2 dir)
     {
         anim.SetBool("walk", dir.magnitude > 0f);
     }
