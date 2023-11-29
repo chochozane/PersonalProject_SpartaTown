@@ -6,7 +6,7 @@
   - ✅ 캐릭터 만들기
     - Create Empty 를 통해 Player 를 만들고 Player 에 이미지를 드래그하여 추가.
   - ✅ 캐릭터 이동
-    - 키보드 키 입력(W(up), A(left), S(down), D(right) 와 방향키 ↑(up), ←(left), ↓(down), →(right)) 을 통해 캐릭터 이동 구현.
+    - InputSystem 을 사용하여 키보드 키 입력 (W(up), A(left), S(down), D(right) 와 방향키 ↑(up), ←(left), ↓(down), →(right)) 을 통해 캐릭터 이동 구현.
     - 캐릭터가 마우스 방향을 바라보도록 구현을 했는데 아직 수학적인 부분에서 공부가 더 필요한 파트다.<br>
     다음과 같이 코드를 작성하여 구현했다.<br>
       `float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;`<br>
